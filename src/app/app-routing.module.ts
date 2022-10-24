@@ -7,6 +7,10 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
+    path: 'mask-input',
+    loadChildren: () => import('./ytips/mask-input/mask-input.module').then(m => m.MaskInputPageModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
