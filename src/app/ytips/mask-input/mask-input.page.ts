@@ -35,7 +35,6 @@ export class MaskInputPage {
         case 3:
         case 5:
           text.push('-');
-          break;
       }
 
       text.push(char);

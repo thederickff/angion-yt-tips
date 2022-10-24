@@ -8,10 +8,10 @@
   <form [formGroup]="form">
     <ion-item>
       <ion-label position="stacked">Social Security Number</ion-label>
-      <ion-input type="text" placeholder="831-86-7180" formControlName="socialSecurityNumber" (ionInput)="changeSocialSecurityNumber($event)"></ion-input>
+      <ion-input type="text" placeholder="945-03-9858" formControlName="socialSecurityNumber" (ionInput)="changeSocialSecurityNumber($event)"></ion-input>
     </ion-item>
     <div class="ion-padding-top">
-      <ion-button [disabled]="form.invalid" expand="block" (click)="submit()">Submit</ion-button>
+      <ion-button expand="block" [disabled]="form.invalid" (click)="submit()">Submit</ion-button>
     </div>
   </form>
 </ion-content>
