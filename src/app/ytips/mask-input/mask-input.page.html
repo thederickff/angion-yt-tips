@@ -4,14 +4,6 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
-  <form [formGroup]="form">
-    <ion-item>
-      <ion-label position="stacked">Social Security Number</ion-label>
-      <ion-input type="text" placeholder="831-86-7180" formControlName="socialSecurityNumber" (ionInput)="changeSocialSecurityNumber($event)"></ion-input>
-    </ion-item>
-    <div class="ion-padding-top">
-      <ion-button [disabled]="form.invalid" expand="block" (click)="submit()">Submit</ion-button>
-    </div>
-  </form>
+<ion-content>
+  It works
 </ion-content>
