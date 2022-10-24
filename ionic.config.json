@@ -1,0 +1,7 @@
+{
+  "name": "yt-tips",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
