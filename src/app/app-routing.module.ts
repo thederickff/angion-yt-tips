@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: () => import('./ytips/mask-input/mask-input.module').then(m => m.MaskInputPageModule)
   },
   {
+    path: 'date-format',
+    loadChildren: () => import('./ytips/date-format/date-format.module').then(m => m.DateFormatPageModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
