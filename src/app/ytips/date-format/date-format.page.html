@@ -9,37 +9,37 @@
     <ion-item lines="full" button detail="false">
       <ion-label class="ion-text-wrap">
         <p>MM/dd/yyyy HH:mm:ss</p>
-        <h2>{{ dates[0] }}</h2>
+        <h2>{{ dates[0] | dateFormat: 'MM/dd/yyyy HH:mm:ss' }}</h2>
       </ion-label>
     </ion-item>
     <ion-item lines="full" button detail="false">
       <ion-label class="ion-text-wrap">
-        <p>MM/DD HH:mm</p>
-        <h2>{{ dates[1] }}</h2>
+        <p>MM/dd HH:mm</p>
+        <h2>{{ dates[1] | dateFormat: 'MM/dd HH:mm' }}</h2>
       </ion-label>
     </ion-item>
     <ion-item lines="full" button detail="false">
       <ion-label class="ion-text-wrap">
         <p>DDD, MM</p>
-        <h2>{{ dates[2] }}</h2>
+        <h2>{{ dates[2] | dateFormat: 'DDD, MM' }}</h2>
       </ion-label>
     </ion-item>
     <ion-item lines="full" button detail="false">
       <ion-label class="ion-text-wrap">
         <p>MMM, DDDD</p>
-        <h2>{{ dates[3] }}</h2>
+        <h2>{{ dates[3] | dateFormat: 'MMM, DDDD' }}</h2>
       </ion-label>
     </ion-item>
     <ion-item lines="full" button detail="false">
       <ion-label class="ion-text-wrap">
         <p>yyyy - MMMM</p>
-        <h2>{{ dates[4] }}</h2>
+        <h2>{{ dates[4] | dateFormat: 'yyyy - MMMM' }}</h2>
       </ion-label>
     </ion-item>
     <ion-item lines="full" button detail="false">
       <ion-label class="ion-text-wrap">
         <p>DDDD before HH:mm:ss</p>
-        <h2>{{ dates[5] }}</h2>
+        <h2>{{ dates[5] | dateFormat: 'DDDD before HH:mm:ss' }}</h2>
       </ion-label>
     </ion-item>
   </ion-list>
